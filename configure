@@ -12,8 +12,11 @@ module load anaconda3/5.3.1
 conda create -y -n transformers_env pytorch numpy tqdm
 source activate transformers_env
 
-#Install requirements
-pip install -r requirements.txt
+# #Install requirements
+# pip install -r requirements.txt
+
+#Install env via conda
+conda env update --file requirements.yml
 
 # Install transformers
 git clone https://github.com/huggingface/transformers

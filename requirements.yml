@@ -40,7 +40,6 @@ dependencies:
   - xz=5.2.4=h14c3975_4
   - zlib=1.2.11=h7b6447c_3
   - pip:
-    - apex==0.1
     - boto3==1.12.5
     - botocore==1.15.5
     - chardet==3.0.4

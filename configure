@@ -13,7 +13,6 @@ conda create -y -n transformers_env pytorch numpy tqdm
 source activate transformers_env
 
 #Install requirements
-cd Ok-Dac
 pip install -r requirements.txt
 
 # Install transformers

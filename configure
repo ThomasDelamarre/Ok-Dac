@@ -18,8 +18,8 @@ source activate transformers_env
 #Install env via conda
 conda env update --file requirements.yml
 
-# Install transformers
-git clone https://github.com/huggingface/transformers
-cd transformers
-pip install .
-pip install -r ./examples/requirements.txt
+# # Install transformers
+# git clone https://github.com/huggingface/transformers
+# cd transformers
+# pip install .
+# pip install -r ./examples/requirements.txt

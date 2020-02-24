@@ -14,7 +14,7 @@ source activate transformers_env
 
 #Install requirements
 cd Ok-Dac
-pip install requirements.txt
+pip install -r requirements.txt
 
 # Install transformers
 git clone https://github.com/huggingface/transformers

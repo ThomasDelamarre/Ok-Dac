@@ -1,0 +1,45 @@
+{
+    "qas": [
+        {
+            "question": "Qu'est ce qu'un moldu ?",
+            "answer": "Un Moldu, dit Hagrid, c'est comme ça que nous appelons les gens qui n'ont pas de pouvoirs\nmagiques",
+            "answer_start": 123
+        },
+        {
+            "question": "Harry est il un sorcier ?",
+            "answer": "Vous saviez ? s'écria Harry. Vous saviez que je suis un... un sorcier ?\n",
+            "answer_start": 520
+        },
+        {
+            "question": "Comment sont mort les parents d'Harry ?",
+            "answer": "Et pour finir,\nquelqu'un l'a fait exploser ",
+            "answer_start": 1597
+        },
+        {
+            "question": "Comment s'appelle le mechant ?",
+            "answer": "Bon, allons-y, il s'appelait... Voldemort",
+            "answer_start": 3770
+        },
+        {
+            "question": "Ou part Harry Potter ?",
+            "answer": "Tu ne peux pas aller à Poudlard sans savoir...",
+            "answer_start": 2688
+        },
+        {
+            "question": "Qui est le sorcier qui a mal tourné ?",
+            "answer": "Bon, allons-y, il s'appelait... Voldemort.\n",
+            "answer_start": 3770
+        },
+        {
+            "question": "",
+            "answer": "quiète. Quand Dumbledore m'a\nprévenu qu'il ne serait peut-être pas facile de te ramener, je ne me doutais pas que n'étais au\ncourant de rien. Ah, Harry, je me demande si c'est moi qui suis le mieux placé pour te révéler\ntout ça, mais il faut bien que quelqu'un le fasse. Tu ne peux pas aller à Poudlard sans savoir...\nIl lança un regard noir aux Dursley.\n—Je vais essayer de t",
+            "answer_start": 2417
+        },
+        {
+            "question": "Hagrid sait-il écrire ?",
+            "answer": "Non, je ne sais pas comment ça s'écrit",
+            "answer_start": 3727
+        }
+    ],
+    "context": "—J'aimerais bien voir qu'un Moldu dans votre genre s'avise de l'en empêcher, dit-il.\n—Un quoi ? demanda Harry, intéressé.\n—Un Moldu, dit Hagrid, c'est comme ça que nous appelons les gens qui n'ont pas de pouvoirs\nmagiques. Et manque de chance, tu as grandi dans la plus incroyable famille de Moldus que\nj'aie jamais rencontrée.\n—Quand nous l'avons pris avec nous, nous nous sommes juré d'en finir avec ces balivernes,\ndit l'oncle Vernon. Juré qu'on allait le débarrasser de tout ça. Un sorcier ! Et puis quoi,\nencore ?\n—Vous saviez ? s'écria Harry. Vous saviez que je suis un... un sorcier ?\n—Nous le savions ! hurla soudain la tante Pétunia d'une voix perçante. Bien sûr que nous le\nsavions ! Comment aurait-il pu en être autrement quand on sait ce qu'était ma maudite sœur !\nUn jour, elle a reçu une lettre exactement comme celle-ci et elle est partie dans... dans cette\nécole.. Quand elle revenait à la maison pour les vacances, elle avait les poches pleines de\ntêtards et elle changeait les tasses de thé en rats d'égout. J'étais la seule à la voir telle qu'elle\nétait: un monstre ! Mais avec mon père et ma mère, il n'y en avait que pour elle, c'était Lily\npar-ci, Lily par-là, ils étaient si fiers d'avoir une sorcière dans la famille !\nElle s'interrompit pour respirer profondément puis elle reprit sa tirade. On aurait dit qu'elle\navait attendu des années avant d'oser dire tout ce qu'elle avait sur le cœur.\n\n\f—Et puis, elle a rencontré ce Potter, à l'école, reprit-elle, ils se sont mariés et tu es arrivé.\nMoi, je savais bien que tu serais comme eux, aussi bizarre, aussi... anormal... Et pour finir,\nquelqu'un l'a fait exploser et on a hérité de toi !\nHarry était devenu très pâle. Il mit un certain temps à retrouver sa voix.\n—Exploser ? Vous m'avez toujours dit que mes parents étaient morts dans un accident de\nvoiture !\n—UN ACCIDENT DE VOITURE ? rugit Hagrid, en sursautant si violemment que les Dursley\nretournèrent se terrer dans un coin de la cabane. Comment un simple accident de voiture\naurait-il pu tuer Lily et James Potter ? C'est une insulte ! Un scandale ! Harry Potter ne\nconnaît même pas sa propre histoire, alors que dans notre monde, tous les enfants\nconnaissent son nom !\n—Mais pourquoi ? Qu'est-ce qui s'est passé ? demanda Harry, avide de savoir.\nLa colère disparut du visage de Hagrid. Il eut soudain l'air très mal à l'aise.\nJe ne m'attendais vraiment pas à ça, dit-il d'une voix inquiète. Quand Dumbledore m'a\nprévenu qu'il ne serait peut-être pas facile de te ramener, je ne me doutais pas que n'étais au\ncourant de rien. Ah, Harry, je me demande si c'est moi qui suis le mieux placé pour te révéler\ntout ça, mais il faut bien que quelqu'un le fasse. Tu ne peux pas aller à Poudlard sans savoir...\nIl lança un regard noir aux Dursley.\n—Je vais essayer de te dire ce que je peux, mais je ne pourrai pas tout dire, il y a de trop\ngrands mystères derrière tout cela.\nIl se laissa aller contre le dossier du canapé et contempla le feu pendant quelques instants\navant de commencer son récit.\n—Toute l'histoire commence à cause d'un personnage qui s'appelle... c'est vraiment\nincroyable que tu n'aies jamais entendu son nom alors que, dans notre monde, chacun\nconnaît...\n—Connaît qui ? demanda Harry.\n—Je n'aime pas beaucoup prononcer son nom quand je peux l'éviter. Personne n'aime ça.\n—Pourquoi ?\n—Nom d'une gargouille, Harry ! Tout le monde a encore peur. Ah, bougre de diable, c'est\ntellement difficile ! Voilà: il y a eu un jour un sorcier qui... qui a mal tourné... Très, très mal\ntourne... Pire que ça, même. Pire que tout ce qu'on peut imaginer de pire. Il s'appelait...\nHagrid avala sa salive, mais aucun nom ne sortit de sa bouche.\n—Vous pourriez peut-être l'écrire ? suggéra Harry.\n\n\f—Non, je ne sais pas comment ça s'écrit. .. Bon, allons-y, il s'appelait... Voldemort.\nL'immense corps du géant fut parcouru d'un frisson."
+}

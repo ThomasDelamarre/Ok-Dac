@@ -21,7 +21,7 @@ from contextlib import contextmanager
 #                 os.system('rm -rf apex/.git') # too many files, Kaggle fails
 #                 from apex import amp
 
-with open('data/train-v2.0.json', 'r') as f:
+with open('data/fquad-train.json', 'r') as f:
     train_data = json.load(f)
 
 train_data = [item for topic in train_data['data']
@@ -43,19 +43,19 @@ train_args = {
 model = QuestionAnsweringModel(
     'flaubert', 'flaubert-base-cased', args=train_args, use_cuda=True)
 
-# model.train_model(train_data)
+model.train_model(train_data)
 
 
-# with open('data/dev-v2.0.json', 'r') as f:
-#     dev_data = json.load(f)
+with open('data/dev-v2.0.json', 'r') as f:
+    dev_data = json.load(f)
 
-# dev_data = [item for topic in dev_data['data'] for item in topic['paragraphs']]
+dev_data = [item for topic in dev_data['data'] for item in topic['paragraphs']]
 
-# preds = model.predict(dev_data)
+preds = model.predict(dev_data)
 
-# os.makedirs('results', exist_ok=True)
+os.makedirs('results', exist_ok=True)
 
-# submission = {pred['id']: pred['answer'] for pred in preds}
+submission = {pred['id']: pred['answer'] for pred in preds}
 
-# with open('results/submission.json', 'w') as f:
-#     json.dump(submission, f)
+with open('results/submission.json', 'w') as f:
+    json.dump(submission, f)

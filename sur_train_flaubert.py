@@ -21,7 +21,7 @@ train_args = {
 model = QuestionAnsweringModel(
     'flaubert', './outputs/flaubert/checkpoint-2650-epoch-2/', args=train_args, use_cuda=True)
 
-with open('./data/illiun/first_output.json', 'r') as f:
+with open('./data/illiun/json_output/third_output.json', 'r') as f:
     sur_train_data = json.load(f)
 
 sur_train_data = [item for topic in sur_train_data['data']

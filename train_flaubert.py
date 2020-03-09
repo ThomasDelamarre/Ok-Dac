@@ -29,6 +29,7 @@ train_data = [item for topic in train_data['data']
 
 
 train_args = {
+    'output_dir': 'outputs/flaubert_train/',
     'fp16':False,
     'learning_rate': 3e-5,
     'num_train_epochs': 2,
@@ -41,7 +42,7 @@ train_args = {
 }
 
 model = QuestionAnsweringModel(
-    'flaubert', 'flaubert-base-cased', args=train_args, use_cuda=True)
+    'flaubert', 'flaubert-large-cased', args=train_args, use_cuda=True)
 
 model.train_model(train_data)
 

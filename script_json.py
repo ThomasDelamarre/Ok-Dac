@@ -40,7 +40,8 @@ class JsonTransformer:
                                 qas.append(buff)
 
                         transformed = {'qas': qas, 'context': context}
-                        self.output["data"][0]["paragraphs"].append(transformed)
+                        self.output["data"][0]["paragraphs"].append(
+                            transformed)
                     print("Done for " + file + "\n")
 
         with open(self.directory_output + "output.json", 'w', encoding='utf8') as outfile:
@@ -49,5 +50,6 @@ class JsonTransformer:
         print("All done")
 
 
-jt = JsonTransformer(directory_input='data/annotations/', directory_output='data/json_output/')
+jt = JsonTransformer(directory_input='data/annotations/',
+                     directory_output='data/json_output/')
 jt.transform_all_json()

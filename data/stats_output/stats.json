@@ -1,0 +1,40 @@
+{
+    "stats": [
+        {
+            "question type": [
+                {
+                    "type": "who",
+                    "count": 35
+                },
+                {
+                    "type": "what",
+                    "count": 39
+                },
+                {
+                    "type": "when",
+                    "count": 2
+                },
+                {
+                    "type": "how_much",
+                    "count": 12
+                },
+                {
+                    "type": "where",
+                    "count": 7
+                },
+                {
+                    "type": "how",
+                    "count": 16
+                },
+                {
+                    "type": "why",
+                    "count": 9
+                },
+                {
+                    "type": "others",
+                    "count": 69
+                }
+            ]
+        }
+    ]
+}

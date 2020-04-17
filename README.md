@@ -7,18 +7,18 @@ Ce système utilise des modèles pré-entraînés de compréhension du langage n
 Les fichiers *__.pbs__* permettent d'executer sur ces machines les scripts qui leurs sont associés (train_dual_gpu.pbs éxécute le script main.py).
 
 - Le dossier *__data__* contient les données ayant permis l'entraînement de notre modèle.
-Plus précisément, les sets de données de *__fquad*__ (dev-v2.0.json, etc.) et, dans le sous-dossier *__annotations*__, les questions que nous avons annoté nous-même sur le thème d'Harry Potter.
-Le dossier *__json_output*__ contient la concaténation de nos annotations.
-Le dossier *__stats_output*__ contient les données de quelques statistiques enregistrées dans un fichier json.
+Plus précisément, les sets de données de *__fquad__* (dev-v2.0.json, etc.) et, dans le sous-dossier *__annotations__*, les questions que nous avons annoté nous-même sur le thème d'Harry Potter.
+Le dossier *__json_output__* contient la concaténation de nos annotations.
+Le dossier *__stats_output__* contient les données de quelques statistiques enregistrées dans un fichier json.
 
-- *__script_json.py*__: permet la concaténation des annotations en un seul fichier json.
+- *__script_json.py__*: permet la concaténation des annotations en un seul fichier json.
 
-- *__stats.py*__ et *__statDataset.py*__: donne quelques statistiques sur nos annotations.
+- *__stats.py__* et *__statDataset.py__*: donne quelques statistiques sur nos annotations.
 
-- *__train_camembert.py*__: permet l'entraînement d'un modèle Camembert grâce à la libraire simpletransformers sur le set de fsquad
+- *__train_camembert.py__*: permet l'entraînement d'un modèle Camembert grâce à la libraire simpletransformers sur le set de fsquad
 
-- *__train_flaubert.py*__: permet l'entraînement d'un modèle Flaubert grâce à la libraire simpletransformers sur le set de fsquad
+- *__train_flaubert.py__*: permet l'entraînement d'un modèle Flaubert grâce à la libraire simpletransformers sur le set de fsquad
 
-- *__sur_train_flaubert.py*__: permet le surentraînement du modèle Flaubert grâce à la libraire simpletransformers sur nos annotations
+- *__sur_train_flaubert.py__*: permet le surentraînement du modèle Flaubert grâce à la libraire simpletransformers sur nos annotations
 
-- *__main.py*__: permet l'entraînement d'un modèle Bert sur le set de fsquad et de tester une prédiction
+- *__main.py__*: permet l'entraînement d'un modèle Bert sur le set de fsquad et de tester une prédiction

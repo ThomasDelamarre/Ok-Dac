@@ -2,4 +2,5 @@ outputs/
 cache_dir/
 back-up/
 results/
+.idea/
 predict.py

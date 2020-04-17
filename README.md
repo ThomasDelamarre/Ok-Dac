@@ -3,20 +3,20 @@
 Projet de développement d'un système de questions-réponses automatique en français dans le cadre du cours des Données à la Connaissance de l'option OSY de l'école CentraleSupélec.  
 Ce système utilise des modèles pré-entraînés de compréhension du langage naturel en français s'inspirant du modèle pour l'anglais Bert (flauBert et camemBert) et permettra tout particulièrement de donner des réponses sur le thème d'Harry Potter.
 
-##Configuration
+### Configuration
 
 Le fichier *__configure__* permet de bien configurer le projet pour l'utilisation des machines du mésocentre qui nous étaient fournis.  
 Les fichiers *__.pbs__* permettent d'executer sur ces machines les scripts qui leur sont associés (*train_dual_gpu.pbs éxécute le script main.py*).
 
 
-##Données
+### Données
 
 Le dossier *__data__* contient les données ayant permis l'entraînement de notre modèle, à savoir:  
 - Les sets de données de *__fquad__* (dev-v2.0.json, etc.) et, dans le sous-dossier *__annotations__*, les questions que nous avons annoté nous-même sur le thème d'Harry Potter.
 - Le dossier *__json_output__* contient la concaténation de nos annotations.
 - Le dossier *__stats_output__* contient les données de quelques statistiques enregistrées dans un fichier json.
 
-##Scripts
+### Scripts
 
 - *__script_json.py__*: permet la concaténation des annotations en un seul fichier json.
 
